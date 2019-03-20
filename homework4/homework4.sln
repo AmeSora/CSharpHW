@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alarm", "Alarm", "{A5C1BB40-8579-44F3-AEE3-298E847264A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alarm", "Alarm\Alarm.csproj", "{C11AF5DB-8D20-408F-8AD9-C283233F98B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderManager", "OrderManager", "{E93AF56D-9600-4395-8C3F-CB92C97B9BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManager", "OrderManager\OrderManager.csproj", "{7FEABE53-6D44-4997-923C-8E544CCF6C18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11AF5DB-8D20-408F-8AD9-C283233F98B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11AF5DB-8D20-408F-8AD9-C283233F98B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11AF5DB-8D20-408F-8AD9-C283233F98B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11AF5DB-8D20-408F-8AD9-C283233F98B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FEABE53-6D44-4997-923C-8E544CCF6C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEABE53-6D44-4997-923C-8E544CCF6C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEABE53-6D44-4997-923C-8E544CCF6C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEABE53-6D44-4997-923C-8E544CCF6C18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C11AF5DB-8D20-408F-8AD9-C283233F98B1} = {A5C1BB40-8579-44F3-AEE3-298E847264A1}
+		{7FEABE53-6D44-4997-923C-8E544CCF6C18} = {E93AF56D-9600-4395-8C3F-CB92C97B9BBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58F1CA7-F29C-479D-8500-023F8AA3FABA}
+	EndGlobalSection
+EndGlobal
